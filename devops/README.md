@@ -34,16 +34,19 @@ Download the guide on:
 
 * Access CodeDeploy Console
   * https://console.aws.amazon.com/codedeploy/home
+![step1](/devops/images/lab_codedeploy_step_1.png)
 * Choose Sample deployment
 * Click Next
+![step2](/devops/images/lab_codedeploy_step_2.png)
 * Choose In-place deployment
 * Click Next
-* Choose Amazon Linux
-* Choose a Key Pair name (if you haven't created one, check  
-  * https://docs.aws.amazon.com/pt_br/AWSEC2/latest/UserGuide/ec2-key-pairs.html#having-ec2-create-your-key-pair)
-* Customize Tag Value (ex: change from CodeDeployDemo to CodeDeployDemo-username1)
 ![step3](/devops/images/lab_codedeploy_step_3.png)
-* Click launch instances and wait the completion (this may take a few minutes)
+* Choose Amazon Linux
+* Choose a Key Pair name (if you haven't created one, check the link below) 
+  * https://docs.aws.amazon.com/pt_br/AWSEC2/latest/UserGuide/ec2-key-pairs.html#having-ec2-create-your-key-pair
+* Customize Tag Value (ex: change from CodeDeployDemo to CodeDeployDemo-username1)
+* Click Launch instances and wait the completion (this may take a few minutes)
+* Click Next
 ![step4](/devops/images/lab_codedeploy_step_4.png)
 * Click Next
 ![step5](/devops/images/lab_codedeploy_step_5.png)
@@ -67,5 +70,6 @@ Download the guide on:
 * Choose the Deployment group you have created on the previous session
 * Choose the Actions -> Deploy new revision
 ![step2_2](/devops/images/lab_codedeploy_2_step_2.png)
-* Choose the Revision Location: s3://aws-codedeploy-us-east-1/samples/latest/SampleApp2_Linux.zip
-* Click Deploy on the bottom of the page
+* Choose the Revision Location to point to a new version
+  * s3://aws-codedeploy-us-east-1/samples/latest/SampleApp2_Linux.zip
+* Click Deploy at the bottom of the page
