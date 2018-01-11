@@ -33,19 +33,20 @@ Download the guide on:
 ## CodeDeploy
 
 * Access CodeDeploy Console
- * https://console.aws.amazon.com/codedeploy/home
+  * https://console.aws.amazon.com/codedeploy/home
 * Choose Sample deployment
 * Click Next
 * Choose In-place deployment
 * Click Next
 * Choose Amazon Linux
 * Choose a Key Pair name (if you haven't created one, check  
- * https://docs.aws.amazon.com/pt_br/AWSEC2/latest/UserGuide/ec2-key-pairs.html#having-ec2-create-your-key-pair)
+  * https://docs.aws.amazon.com/pt_br/AWSEC2/latest/UserGuide/ec2-key-pairs.html#having-ec2-create-your-key-pair)
 * Customize Tag Value (ex: change from CodeDeployDemo to CodeDeployDemo-username1)
 * Click launch instances and wait the completion (this may take a few minutes)
 * Click Next
-![step5](https://github.com/reisjr/aws-id/blob/master/devops/images/lab_codedeploy_2_step_1.png)
+![step5](/images/lab_codedeploy_step_5.png)
 * Change the Deployment Group Name
+![step6](/devops/images/lab_codedeploy_step_5.png)
 * Click Next
 * Click Next
 * Choose the One at a time deployment configuration
@@ -56,7 +57,7 @@ Download the guide on:
 ### Deploy a new version
 
 * Access CodeDeploy Console
- * https://console.aws.amazon.com/codedeploy/home
+  * https://console.aws.amazon.com/codedeploy/home
 * Choose the Application you have created on the previous session
 * Choose the Deployment group you have created on the previous session
 * Choose the Actions -> Deploy new revision
