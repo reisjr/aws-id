@@ -34,30 +34,52 @@ Download the guide on:
 
 * Access CodeDeploy Console
   * https://console.aws.amazon.com/codedeploy/home
+
 ![step1](/devops/images/lab_codedeploy_step_1.png)
+
 * Choose Sample deployment
 * Click Next
+
 ![step2](/devops/images/lab_codedeploy_step_2.png)
+
 * Choose In-place deployment
 * Click Next
+
 ![step3](/devops/images/lab_codedeploy_step_3.png)
+
 * Choose Amazon Linux
 * Choose a Key Pair name (if you haven't created one, check the link below) 
   * https://docs.aws.amazon.com/pt_br/AWSEC2/latest/UserGuide/ec2-key-pairs.html#having-ec2-create-your-key-pair
 * Customize Tag Value (ex: change from CodeDeployDemo to CodeDeployDemo-username1)
 * Click Launch instances and wait the completion (this may take a few minutes)
 * Click Next
+
 ![step4](/devops/images/lab_codedeploy_step_4.png)
+
+* Customize your Application Name (ex: DemoApplication-username1)
 * Click Next
+
 ![step5](/devops/images/lab_codedeploy_step_5.png)
-* Change the Deployment Group Name
+
+* Check the revision that will be deployed
+* Click Next
+
 ![step6](/devops/images/lab_codedeploy_step_6.png)
+
+* Customized the Deployment Group Name (ex: DemoFleet-username1)
 * Click Next
+
 ![step7](/devops/images/lab_codedeploy_step_7.png)
+
+* A service role will be created to manage your deployments
 * Click Next
+
 ![step8](/devops/images/lab_codedeploy_step_8.png)
 * Choose the One at a time deployment configuration
 * Click Next
+
+![step9](/devops/images/lab_codedeploy_step_9.png)
+
 * Review all the configurations
 * Click Deploy
 
