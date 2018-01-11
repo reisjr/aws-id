@@ -42,11 +42,13 @@ Download the guide on:
 * Choose a Key Pair name (if you haven't created one, check  
   * https://docs.aws.amazon.com/pt_br/AWSEC2/latest/UserGuide/ec2-key-pairs.html#having-ec2-create-your-key-pair)
 * Customize Tag Value (ex: change from CodeDeployDemo to CodeDeployDemo-username1)
+![step3](/devops/images/lab_codedeploy_step_3.png)
 * Click launch instances and wait the completion (this may take a few minutes)
+![step4](/devops/images/lab_codedeploy_step_4.png)
 * Click Next
-![step5](/images/lab_codedeploy_step_5.png)
+![step5](/devops/images/lab_codedeploy_step_5.png)
 * Change the Deployment Group Name
-![step6](/devops/images/lab_codedeploy_step_5.png)
+![step6](/devops/images/lab_codedeploy_step_6.png)
 * Click Next
 * Click Next
 * Choose the One at a time deployment configuration
