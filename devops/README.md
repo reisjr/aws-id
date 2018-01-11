@@ -50,7 +50,9 @@ Download the guide on:
 * Change the Deployment Group Name
 ![step6](/devops/images/lab_codedeploy_step_6.png)
 * Click Next
+![step7](/devops/images/lab_codedeploy_step_7.png)
 * Click Next
+![step8](/devops/images/lab_codedeploy_step_8.png)
 * Choose the One at a time deployment configuration
 * Click Next
 * Review all the configurations
@@ -61,7 +63,9 @@ Download the guide on:
 * Access CodeDeploy Console
   * https://console.aws.amazon.com/codedeploy/home
 * Choose the Application you have created on the previous session
+![step2_1](/devops/images/lab_codedeploy_2_step_1.png)
 * Choose the Deployment group you have created on the previous session
 * Choose the Actions -> Deploy new revision
+![step2_2](/devops/images/lab_codedeploy_2_step_2.png)
 * Choose the Revision Location: s3://aws-codedeploy-us-east-1/samples/latest/SampleApp2_Linux.zip
 * Click Deploy on the bottom of the page
